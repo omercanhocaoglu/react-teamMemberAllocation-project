@@ -1,0 +1,19 @@
+.card-collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.standout {
+    box-shadow: 5px 5px;
+}
+
+@media only screen and (max-width:600px) {
+    .card-collection {
+        grid-template-columns: 1fr;
+    }
+}
